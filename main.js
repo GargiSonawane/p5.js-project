@@ -12,3 +12,7 @@ function draw(){
     image(video, 0 ,0 ,640, 480);
     circle(30, 30, 30);
 }
+
+function take_snapshot(){
+    save('student_name.png');
+}
